@@ -1,23 +1,54 @@
 # Iris Flower Classification Project 🌸
 
-A machine learning project aimed at classifying Iris flower species based on petal and sepal dimensions. This project utilizes Python libraries like **PyTorch** and **Scikit-learn** to implement and evaluate various classification algorithms, achieving high accuracy for real-time species prediction.
+## Iris Flower Classification Project
 
-## Project Overview
-This project focuses on building and optimizing machine learning models to classify Iris flower species into three categories: *Setosa*, *Versicolor*, and *Virginica*. The models are trained using the classic Iris dataset, containing 150 samples with four features each (sepal length, sepal width, petal length, and petal width).
+Welcome to the Iris Flower Classification Project! This machine learning project is designed to classify Iris flower species based on petal and sepal dimensions using various classification models.
 
-### Key Features
-- **Model Comparison**: Implemented logistic regression, k-nearest neighbors (k-NN), and decision tree classifiers.
-- **Accuracy Optimization**: Improved model accuracy through cross-validation and hyperparameter tuning.
-- **Streamlit Web App**: Built an interactive web application using **Streamlit** for real-time classification and easy user interaction.
-- **Performance Metrics**: Achieved 94% accuracy, showcasing the model's effectiveness in classifying Iris species.
+## Getting Started
 
-## Technologies Used
-- **Languages**: Python
-- **Libraries**: PyTorch, Scikit-learn, Pandas, Streamlit
-- **Tools**: Git, GitHub
+To get started, follow these instructions:
 
-## Installation
-1. Clone the repository:
+1. **Installation**:
+ Clone the repository:
    ```bash
    git clone https://github.com/zinels/Iris-flower-Classification
    cd Iris-Flower-Classification
+
+2. **Dependencies**:
+   - This project uses Python and requires libraries such as PyTorch, Scikit-learn, and Streamlit. Install the necessary dependencies by running:
+     ```
+     pip install -r requirements.txt
+     ```
+
+3. **Running the Streamlit App**:
+   - Run the app using the following command:
+     ```
+     streamlit run app.py
+     ```
+   - The app will launch in your browser, allowing you to input sepal and petal measurements to classify the Iris species in real-time.
+
+## Usage
+
+The model classifies Iris flowers into three species: *Setosa*, *Versicolor*, and *Virginica*. Enter the flower's measurements to receive a prediction based on the optimized model.
+
+For example:
+- Sepal length: 5.1 cm
+- Sepal width: 3.5 cm
+- Petal length: 1.4 cm
+- Petal width: 0.2 cm
+
+## Results
+
+The final model achieved an accuracy of **94%**, providing reliable predictions for Iris species classification.
+
+## Acknowledgments
+
+- Special thanks to Professor Taseef Rahman for guidance and support throughout this project.
+
+## Contact
+
+For questions or inquiries, feel free to contact the project owner:
+
+- [Tanzeel Rahman](mailto:tanzeelr@usf.edu)
+
+---
