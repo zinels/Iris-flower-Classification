@@ -19,5 +19,5 @@ This project focuses on building and optimizing machine learning models to class
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Iris-Flower-Classification.git
+   git clone https://github.com/zinels/Iris-flower-Classification
    cd Iris-Flower-Classification
